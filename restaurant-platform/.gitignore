@@ -1,4 +1,4 @@
-
+# Logs
 logs
 *.log
 npm-debug.log*
@@ -7,28 +7,28 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-
+# Dependencies
 node_modules
 .pnp
 .pnp.js
 
-
+# Build outputs
 dist
 dist-ssr
 *.local
 build
 storybook-static
 
-
+# Test coverage
 coverage
 .nyc_output
 
-
+# Environment variables
 .env
 .env.*
-.env.example
+!.env.example
 
-
+# Editor and OS files
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
@@ -40,23 +40,22 @@ coverage
 *.sln
 *.sw?
 
-
+# API keys and sensitive configs
 **/serviceAccountKey.json
 **/firebase-config.js
 **/firebase-config.ts
 **/supabase-config.js
 **/supabase-config.ts
 
+# Proprietary code
 **/core-algorithms/
 **/business-logic/
 **/proprietary-features/
 
-
+# Personal files
 notes/
 todo/
 *.private.*
 .memory/
 .memory
-
-
 **/*.memory.md

@@ -17,12 +17,8 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": "../../",
     "paths": {
-      "@restaurant-platform/*": ["packages/*"],
-      "react": ["node_modules/react"],
-      "react-dom": ["node_modules/react-dom"],
-      "framer-motion": ["node_modules/framer-motion"]
-    },
-    "types": ["react", "react-dom"]
+      "@restaurant-platform/*": ["packages/*"]
+    }
   },
   "include": ["src"]
 }
