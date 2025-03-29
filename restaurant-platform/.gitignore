@@ -1,5 +1,4 @@
-<!-- filepath: /Users/abderrazaq/Documents/GitHub/Moonshot/restaurant-platform/.gitignore -->
-# Logs
+
 logs
 *.log
 npm-debug.log*
@@ -8,28 +7,28 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Dependencies
+
 node_modules
 .pnp
 .pnp.js
 
-# Build outputs
+
 dist
 dist-ssr
 *.local
 build
 storybook-static
 
-# Testing
+
 coverage
 .nyc_output
 
-# Environment variables
+
 .env
 .env.*
 .env.example
 
-# Editor directories and files
+
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
@@ -41,24 +40,23 @@ coverage
 *.sln
 *.sw?
 
-# Service configurations with sensitive data
+
 **/serviceAccountKey.json
 **/firebase-config.js
 **/firebase-config.ts
 **/supabase-config.js
 **/supabase-config.ts
 
-# Business logic that should remain private
 **/core-algorithms/
 **/business-logic/
 **/proprietary-features/
 
-# Personal notes or planning files
+
 notes/
 todo/
 *.private.*
 .memory/
 .memory
 
-# Project development context
+
 **/*.memory.md
