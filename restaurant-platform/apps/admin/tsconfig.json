@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "../../",
+    "paths": {
+      "@restaurant-platform/*": ["packages/*"],
+      "react": ["node_modules/react"],
+      "react-dom": ["node_modules/react-dom"],
+      "framer-motion": ["node_modules/framer-motion"]
+    },
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "types": ["react", "react-dom"]
+  },
+  "include": ["src/**/*"]
+}

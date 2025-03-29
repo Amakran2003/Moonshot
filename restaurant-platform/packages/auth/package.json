@@ -1,0 +1,17 @@
+{
+  "name": "@restaurant-platform/auth",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  }
+}
